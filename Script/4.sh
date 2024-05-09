@@ -15,4 +15,7 @@ helm create my-redis-deployment
 echo "Deploying Redis using Helm chart..."
 helm install my-redis .
 
+#To exec inside the Pod
+kubectl exec -it <pod-name> -- /bin/bash
+
 
