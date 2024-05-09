@@ -16,9 +16,9 @@ Ans. Created Helm chart with "Helm create my-redis-deployment" and modified the 
 4) A script to deploy the above helm chart on the cluster \
 Ans. Script name under Script dir with 4.sh i.e Script/4.sh \
 
-5. A script to “exec” to the deployment and set a new key in the redis server (OxKey) with a
+5) A script to “exec” to the deployment and set a new key in the redis server (OxKey) with a
 value (OxValue)\
-6. A script to “exec” to the deployment and get the value of the key (OxKey) and print it
+6) A script to “exec” to the deployment and get the value of the key (OxKey) and print it
 back out.\
 
 Ans. Script name under Script dir with 5and6.sh i.e Script/5and6.sh to get and set the key pair value \
