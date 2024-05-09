@@ -9,8 +9,9 @@ Ans. Script name under Scripts dir with 2.sh i.e Script/2.sh \
 3)A helm chart defining a deployment with a single container, that container should have
 the ability to connect to the redis server,\ ( ie: redis - Official Image | Docker Hub ). The
 deployment should remain up, allowing the user to “exec” into the container to run redis
-commands.?\
-Ans. Created Helm chart with "Helm create my-redis-deployment" and modified the value of svc/deployment/values/Chart.yaml file \ To exec in container " Kubectl exec -it <pod-name> -- /bin/bash" \
+commands.? \
+
+Ans. Created Helm chart with "Helm create my-redis-deployment" and modified the value of svc/deployment/values/Chart.yaml file . Placed the folder with name "my-redis-deployment"
 
 4) A script to deploy the above helm chart on the cluster \
 Ans. Script name under Script dir with 4.sh i.e Script/4.sh \
